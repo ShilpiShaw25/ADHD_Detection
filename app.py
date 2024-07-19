@@ -24,7 +24,7 @@ pca_dim_reducer = pca_model()
 pred_model = trained_model()
 
 # Title of the app
-st.title('Upload and Read CSV')
+st.title('ADHD Detection')
 
 # set the image
 st.image(IMAGE_ADDRESS, caption = "ADHD Detection")

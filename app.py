@@ -27,7 +27,7 @@ pred_model = trained_model()
 st.title('ADHD Detection')
 
 # set the image
-st.image(IMAGE_ADDRESS, caption = "ADHD Detection")
+st.image(IMAGE_ADDRESS, caption = "ADHD_Detection")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
